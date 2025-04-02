@@ -9,3 +9,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.text-center{
+    display: flex;
+    background-color: rgb(213, 218, 216);
+    justify-content:center
+}
+
+.bigCounter {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.bigCounter div {
+    background-color: #3f3f3f;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+    
+
